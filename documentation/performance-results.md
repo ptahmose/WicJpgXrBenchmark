@@ -49,16 +49,14 @@ displayed median times and reported, rounded throughput values.
 
 All DLL versions below include the suffix `WinBuild.160101.0800`.
 
-| Run | Reported OS version and UBR | wmpPhoto.dll | WindowsCodecs.dll | Image preparation (ms) |
-| --- | --- | --- | --- | ---: |
-| 1 | Microsoft Windows NT 10.0.26100.0, UBR 9457 | 10.0.26100.1 | 10.0.26100.9457 | 229.4 |
-| 2 | Microsoft Windows NT 10.0.26100.0, UBR 1742 | 10.0.26100.1 | 10.0.26100.1591 | 218.3 |
-| 3 | Microsoft Windows NT 10.0.26100.0, UBR 9974 | 10.0.26100.1 | 10.0.26100.9974 | 341.3 |
-| 4 | Microsoft Windows NT 10.0.26300.0, UBR 10075 | 10.0.26100.8875 | 10.0.26100.10068 | 212.4 |
+| Run | Reported OS version and UBR | wmpPhoto.dll | WindowsCodecs.dll |
+| --- | --- | --- | --- |
+| 1 | Microsoft Windows NT 10.0.26100.0, UBR 9457 | 10.0.26100.1 | 10.0.26100.9457 |
+| 2 | Microsoft Windows NT 10.0.26100.0, UBR 1742 | 10.0.26100.1 | 10.0.26100.1591 |
+| 3 | Microsoft Windows NT 10.0.26100.0, UBR 9974 | 10.0.26100.1 | 10.0.26100.9974 |
+| 4 | Microsoft Windows NT 10.0.26300.0, UBR 10075 | 10.0.26100.8875 | 10.0.26100.10068 |
 
-The preparation timings vary, but are outside the measured decode iterations;
-they do not establish an encoding performance difference. Run 4 reported OS
-build 26300 while both codec DLL versions were 26100-based.
+Run 4 reported OS build 26300 while both codec DLL versions were 26100-based.
 
 The reported update labels do not follow the captured version order: run 1
 ("without updates") has UBR 9457 and WindowsCodecs.dll 26100.9457, while run 2
