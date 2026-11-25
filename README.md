@@ -3,7 +3,8 @@
 Windows command-line benchmark for JPEG-XR decoding and encoding using WIC
 through WPF. It can generate a test image or use an existing JPEG-XR file.
 
-[Performance results](documentation/performance-results.md)
+[Performance results](documentation/performance-results.md) |
+[WPR trace analysis](documentation/wpr-trace-analysis.md)
 
 Build and run with the .NET 10 SDK on Windows:
 
